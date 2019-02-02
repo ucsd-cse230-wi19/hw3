@@ -95,8 +95,9 @@ full_asimp :: AExp -> AExp
 full_asimp a = V "TBD"  -- <<< Replace this with something that works
 
 -- | Prove that your `full_asimp` yields an expression equivalent to its input.
-
-lemma_full_asimp a s = impossible "TBD" 
+{-@ lem_full_asimp :: a:_ -> s:_ -> { aval a s == aval (full_asimp a) s } @-}
+lem_full_asimp :: AExp -> State -> Proof
+lem_full_asimp a s = impossible "TBD" 
 
 -- HINT: You will likely need helper functions to define `full_asimp` and helper 
 --       lemmas to prove properties of those helper functions.
