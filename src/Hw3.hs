@@ -6,8 +6,7 @@ module Hw3 where
 
 import           Prelude hiding ((++), const, sum) 
 import           ProofCombinators
--- import qualified State as S 
-import qualified NewState as S 
+import qualified State as S 
 
 --------------------------------------------------------------------------------
 -- | Arithmetic Expressions 

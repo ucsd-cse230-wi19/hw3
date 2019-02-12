@@ -1,7 +1,7 @@
 {-@ LIQUID "--reflection" @-}
 {-@ LIQUID "--ple"        @-}
 
-module NewState where
+module State where
 
 import Prelude hiding ((++), const, max)
 import ProofCombinators
