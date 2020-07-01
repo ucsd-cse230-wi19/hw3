@@ -1,0 +1,25 @@
+cabal-version: 1.12
+
+name:           hw3
+version:        0.1.0.0
+description:    hw3 from CSE230 - "Proofs of Programs"
+homepage:
+bug-reports:
+author:         Ranjit Jhala 
+maintainer:     jhala@cs.ucsd.edu
+copyright:      2020 Ranjit Jhala 
+license:        MIT 
+license-file:   LICENSE
+build-type:     Simple
+
+library
+  exposed-modules:
+      Hw3 
+  hs-source-dirs:
+      src
+  build-depends:
+      liquid-base,
+      liquid-containers,
+      liquidhaskell
+  default-language: Haskell2010
+  ghc-options: -fplugin=LiquidHaskell
