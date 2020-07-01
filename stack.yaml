@@ -2,7 +2,6 @@ resolver: nightly-2020-06-25
 packages:
   - .
 extra-deps:
-  - tasty-rerun
   - text-format-0.3.2
   - Diff-0.3.4
   - git: https://github.com/ucsd-progsys/liquidhaskell
@@ -11,5 +10,6 @@ extra-deps:
       - .
       - liquid-base
       - liquid-ghc-prim
+      - liquid-containers
   - git: https://github.com/ucsd-progsys/liquid-fixpoint
     commit: a4e303bc55e8f596893e661954e20c983a61215f
